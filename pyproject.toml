@@ -1,0 +1,14 @@
+[project]
+name = "shoe-knowledge-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "baml-py==0.220.0",
+    "lancedb>=0.29.2",
+    "pandas>=3.0.1",
+    "polars>=1.39.0",
+    "pymupdf>=1.27.2",
+    "sentence-transformers>=5.3.0",
+]
